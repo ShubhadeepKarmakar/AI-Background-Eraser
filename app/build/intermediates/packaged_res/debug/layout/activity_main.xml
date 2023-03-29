@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/photo_edit_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+            <Button
+                android:id="@+id/undo"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/undo_selector" />
+
+            <Button
+                android:id="@+id/redo"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/redo_selector" />
+
+            <Button
+                android:id="@+id/done"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/done" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </FrameLayout>
+
+    <com.alexvasilkov.gestures.views.GestureFrameLayout
+        android:id="@+id/gestureView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- GestureFrameLayout can contain only one child -->
+
+        <FrameLayout
+            android:id="@+id/drawViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.ai_background_eraser.DrawView
+                android:id="@+id/drawView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/loadingModal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/loadingView"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </com.alexvasilkov.gestures.views.GestureFrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <LinearLayout
+            android:id="@+id/manual_clear_settings_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="top">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Eraser size:"
+                android:textColor="@color/white" />
+
+            <SeekBar
+                android:id="@+id/strokeBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:max="30"
+                android:progress="15" />
+
+        </LinearLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            app:menu="@menu/bottom_nav_bar"/>
+
+    </FrameLayout>
+
+</LinearLayout>

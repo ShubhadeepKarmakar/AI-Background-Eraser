@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_manual.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\manual.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_magic_selector.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\magic_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_magnifier_selector.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\magnifier_selector.xml"
+    },
+    {
+        "merged": "com.example.ai_background_eraser.app-merged_res-37:/menu_bottom_nav_bar.xml.flat",
+        "source": "com.example.ai_background_eraser.app-main-39:/menu/bottom_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_undo_selector.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\undo_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_ai.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\ai.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\menu_bottom_nav_bar.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\menu\\bottom_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_pencil_selector.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\pencil_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_redo_selector.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\redo_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_done.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\done.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-merged_res-37:\\drawable_modelpic.png.flat",
+        "source": "C:\\Users\\Shubhadeep\\.jdks\\daemon\\7.5\\com.example.ai_background_eraser.app-main-39:\\drawable\\modelpic.png"
+    }
+]

@@ -1,0 +1,241 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ai_background_eraser"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:4:5-65
+11-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:4:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:6:22-78
+14
+15    <queries>
+15-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:9:5-20:15
+16        <intent>
+16-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:10:9-16:18
+17            <action android:name="android.intent.action.GET_CONTENT" />
+17-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:11:13-72
+17-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:11:21-69
+18
+19            <category android:name="android.intent.category.OPENABLE" />
+19-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:13:13-73
+19-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:13:23-70
+20
+21            <data android:mimeType="*/*" />
+21-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:15:13-44
+21-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:15:19-41
+22        </intent>
+23        <intent>
+23-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:17:9-19:18
+24            <action android:name="android.media.action.IMAGE_CAPTURE" />
+24-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:18:13-73
+24-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:18:21-70
+25        </intent>
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.ai_background_eraser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.ai_background_eraser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+32-->[androidx.core:core:1.9.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+34-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+35    <uses-permission android:name="android.permission.INTERNET" />
+35-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+35-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
+36
+37    <application
+37-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:7:5-29:19
+38        android:allowBackup="true"
+38-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:8:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.9.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+40        android:dataExtractionRules="@xml/data_extraction_rules"
+40-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:9:9-65
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:fullBackupContent="@xml/backup_rules"
+43-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:10:9-54
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:11:9-43
+45        android:label="@string/app_name"
+45-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:12:9-41
+46        android:supportsRtl="true"
+46-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:13:9-35
+47        android:testOnly="true"
+48        android:theme="@style/Theme.AIBackgroundEraser" >
+48-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:14:9-56
+49        <activity
+49-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:16:9-25:20
+50            android:name="com.example.ai_background_eraser.MainActivity"
+50-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:17:13-41
+51            android:exported="true"
+51-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:19:13-36
+52            android:screenOrientation="portrait" >
+52-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:18:13-49
+53            <intent-filter>
+53-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:20:13-24:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:21:17-69
+54-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:21:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:23:17-77
+56-->C:\Users\Shubhadeep\Desktop\project_gsoc\AI-Background-Eraser\app\src\main\AndroidManifest.xml:23:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <!-- <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" -->
+61        <!-- android:theme="@style/Base.Theme.AppCompat"/> -->
+62        <provider
+62-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:23:9-31:20
+63            android:name="com.canhub.cropper.CropFileProvider"
+63-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:24:13-63
+64            android:authorities="com.example.ai_background_eraser.cropper.fileprovider"
+64-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:25:13-72
+65            android:exported="false"
+65-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:26:13-37
+66            android:grantUriPermissions="true" >
+66-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:27:13-47
+67            <meta-data
+67-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:28:13-30:62
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:29:17-67
+69                android:resource="@xml/library_file_paths" />
+69-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:30:17-59
+70        </provider>
+71
+72        <activity
+72-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:33:9-35:39
+73            android:name="com.canhub.cropper.CropImageActivity"
+73-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:34:13-64
+74            android:exported="true" />
+74-->[com.vanniktech:android-image-cropper:4.5.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\462b1f1fd0c770b6453863e357f3a100\transformed\android-image-cropper-4.5.0\AndroidManifest.xml:35:13-36
+75
+76        <service
+76-->[com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b81ae5eb4d90a3074401d5f3b193054f\transformed\segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:9:9-15:19
+77            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+77-->[com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b81ae5eb4d90a3074401d5f3b193054f\transformed\segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:10:13-91
+78            android:directBootAware="true"
+78-->[com.google.mlkit:common:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\8ce772faaf3e86e9bd2ca186c0b27413\transformed\common-18.0.0\AndroidManifest.xml:17:13-43
+79            android:exported="false" >
+79-->[com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b81ae5eb4d90a3074401d5f3b193054f\transformed\segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:11:13-37
+80            <meta-data
+80-->[com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b81ae5eb4d90a3074401d5f3b193054f\transformed\segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:12:13-14:85
+81                android:name="com.google.firebase.components:com.google.mlkit.vision.segmentation.internal.SegmentationRegistrar"
+81-->[com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b81ae5eb4d90a3074401d5f3b193054f\transformed\segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:13:17-130
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b81ae5eb4d90a3074401d5f3b193054f\transformed\segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:14:17-82
+83            <meta-data
+83-->[com.google.mlkit:vision-common:17.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\623900066eda73d227c51afa74ae7898\transformed\vision-common-17.0.0\AndroidManifest.xml:12:13-14:85
+84                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+84-->[com.google.mlkit:vision-common:17.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\623900066eda73d227c51afa74ae7898\transformed\vision-common-17.0.0\AndroidManifest.xml:13:17-124
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.mlkit:vision-common:17.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\623900066eda73d227c51afa74ae7898\transformed\vision-common-17.0.0\AndroidManifest.xml:14:17-82
+86            <meta-data
+86-->[com.google.mlkit:common:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\8ce772faaf3e86e9bd2ca186c0b27413\transformed\common-18.0.0\AndroidManifest.xml:20:13-22:85
+87                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+87-->[com.google.mlkit:common:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\8ce772faaf3e86e9bd2ca186c0b27413\transformed\common-18.0.0\AndroidManifest.xml:21:17-120
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.mlkit:common:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\8ce772faaf3e86e9bd2ca186c0b27413\transformed\common-18.0.0\AndroidManifest.xml:22:17-82
+89        </service>
+90
+91        <provider
+91-->[com.google.mlkit:common:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\8ce772faaf3e86e9bd2ca186c0b27413\transformed\common-18.0.0\AndroidManifest.xml:9:9-13:38
+92            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+92-->[com.google.mlkit:common:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\8ce772faaf3e86e9bd2ca186c0b27413\transformed\common-18.0.0\AndroidManifest.xml:10:13-78
+93            android:authorities="com.example.ai_background_eraser.mlkitinitprovider"
+93-->[com.google.mlkit:common:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\8ce772faaf3e86e9bd2ca186c0b27413\transformed\common-18.0.0\AndroidManifest.xml:11:13-69
+94            android:exported="false"
+94-->[com.google.mlkit:common:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\8ce772faaf3e86e9bd2ca186c0b27413\transformed\common-18.0.0\AndroidManifest.xml:12:13-37
+95            android:initOrder="99" />
+95-->[com.google.mlkit:common:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\8ce772faaf3e86e9bd2ca186c0b27413\transformed\common-18.0.0\AndroidManifest.xml:13:13-35
+96
+97        <activity
+97-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b26e06b1b7ae62ae1aeb767af8faa670\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b26e06b1b7ae62ae1aeb767af8faa670\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b26e06b1b7ae62ae1aeb767af8faa670\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Shubhadeep\.jdks\caches\transforms-3\b26e06b1b7ae62ae1aeb767af8faa670\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\98233d2c209981d8ded19ef4caace62a\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\98233d2c209981d8ded19ef4caace62a\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\98233d2c209981d8ded19ef4caace62a\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+108            android:authorities="com.example.ai_background_eraser.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shubhadeep\.jdks\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shubhadeep\.jdks\caches\transforms-3\528f10946969151ddeecc9c08cbfcbae\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shubhadeep\.jdks\caches\transforms-3\528f10946969151ddeecc9c08cbfcbae\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shubhadeep\.jdks\caches\transforms-3\528f10946969151ddeecc9c08cbfcbae\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+116        </provider>
+117
+118        <service
+118-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+119            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+119-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+120            android:exported="false" >
+120-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+121            <meta-data
+121-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+122                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+122-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+123                android:value="cct" />
+123-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shubhadeep\.jdks\caches\transforms-3\d546af24ec61a2f2ac848ed0c48ccda5\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+124        </service>
+125        <service
+125-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shubhadeep\.jdks\caches\transforms-3\123c1ed91436a1860df2f9a091f09912\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+126            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+126-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shubhadeep\.jdks\caches\transforms-3\123c1ed91436a1860df2f9a091f09912\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+127            android:exported="false"
+127-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shubhadeep\.jdks\caches\transforms-3\123c1ed91436a1860df2f9a091f09912\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" >
+128-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shubhadeep\.jdks\caches\transforms-3\123c1ed91436a1860df2f9a091f09912\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+129        </service>
+130
+131        <receiver
+131-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shubhadeep\.jdks\caches\transforms-3\123c1ed91436a1860df2f9a091f09912\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+132            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+132-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shubhadeep\.jdks\caches\transforms-3\123c1ed91436a1860df2f9a091f09912\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+133            android:exported="false" />
+133-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shubhadeep\.jdks\caches\transforms-3\123c1ed91436a1860df2f9a091f09912\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+134    </application>
+135
+136</manifest>

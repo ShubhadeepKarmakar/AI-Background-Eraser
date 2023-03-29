@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Auto Selfie"
+        android:id="@+id/auto_selfie"
+        android:icon="@drawable/ai"
+        />
+    <item android:title="Auto Color"
+        android:id="@+id/auto_clear_button"
+        android:icon="@drawable/magic_selector"
+        />
+    <item android:title="Manual Clear"
+        android:id="@+id/manual_clear_button"
+        android:icon="@drawable/pencil_selector"
+        />
+    <item android:title="Zoom"
+        android:id="@+id/zoom_button"
+        android:icon="@drawable/magnifier_selector"
+        />
+
+
+</menu>

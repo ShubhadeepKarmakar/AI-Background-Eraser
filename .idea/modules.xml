@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AI-Background-Eraser.iml" filepath="$PROJECT_DIR$/.idea/modules/AI-Background-Eraser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AI-Background-Eraser.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AI-Background-Eraser.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AI-Background-Eraser.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AI-Background-Eraser.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AI-Background-Eraser.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AI-Background-Eraser.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AI-Background-Eraser.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AI-Background-Eraser.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autobackgroundremover/AI-Background-Eraser.autobackgroundremover.iml" filepath="$PROJECT_DIR$/.idea/modules/autobackgroundremover/AI-Background-Eraser.autobackgroundremover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autobackgroundremover/AI-Background-Eraser.autobackgroundremover.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/autobackgroundremover/AI-Background-Eraser.autobackgroundremover.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autobackgroundremover/AI-Background-Eraser.autobackgroundremover.main.iml" filepath="$PROJECT_DIR$/.idea/modules/autobackgroundremover/AI-Background-Eraser.autobackgroundremover.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autobackgroundremover/AI-Background-Eraser.autobackgroundremover.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/autobackgroundremover/AI-Background-Eraser.autobackgroundremover.unitTest.iml" />
+    </modules>
+  </component>
+</project>

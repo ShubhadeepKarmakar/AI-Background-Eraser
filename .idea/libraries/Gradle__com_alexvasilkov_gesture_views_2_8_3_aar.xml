@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alexvasilkov:gesture-views:2.8.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.jdks/caches/transforms-3/cb5c761726c53b6c9a7bb9e3c03365a9/transformed/gesture-views-2.8.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.jdks/caches/transforms-3/cb5c761726c53b6c9a7bb9e3c03365a9/transformed/gesture-views-2.8.3/res" />
+      <root url="file://$USER_HOME$/.jdks/caches/transforms-3/cb5c761726c53b6c9a7bb9e3c03365a9/transformed/gesture-views-2.8.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.jdks/caches/modules-2/files-2.1/com.alexvasilkov/gesture-views/2.8.3/a11a5bbf5c4a79fe3fb3ce76a4a6ad1a9651621/gesture-views-2.8.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.jdks/caches/modules-2/files-2.1/com.alexvasilkov/gesture-views/2.8.3/82d0b8f943265ca6e954ddd05b016c503d669b00/gesture-views-2.8.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
