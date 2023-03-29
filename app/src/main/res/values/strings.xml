@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AI-Background-Eraser</string>
+
+    <string name="image_chooser_message">Choose an image to cut</string>
+</resources>
